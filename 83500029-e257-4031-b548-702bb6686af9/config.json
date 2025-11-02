@@ -1,0 +1,45 @@
+{
+  "system_monitoring": {
+    "update_interval": 3,
+    "enable_temperature_monitoring": true,
+    "enable_process_monitoring": true,
+    "max_processes_to_track": 20,
+    "alert_thresholds": {
+      "cpu_usage": 80,
+      "memory_usage": 85,
+      "disk_usage": 90,
+      "temperature": 75
+    }
+  },
+  "optimization": {
+    "auto_cleanup_interval": 7,
+    "cache_retention_days": 30,
+    "enable_auto_updates": false,
+    "startup_program_analysis": true
+  },
+  "web_assistant": {
+    "search_provider": "duckduckgo",
+    "max_results": 10,
+    "enable_search_history": true,
+    "cache_searches": true
+  },
+  "writing_assistant": {
+    "auto_save_interval": 60,
+    "enable_spell_check": true,
+    "default_font": "Arial",
+    "default_font_size": 12,
+    "enable_word_count": true
+  },
+  "ui_settings": {
+    "theme": "light",
+    "window_size": "1200x800",
+    "minimize_to_tray": true,
+    "start_minimized": false
+  },
+  "performance": {
+    "lightweight_mode": true,
+    "disable_animations": true,
+    "reduce_memory_usage": true,
+    "cpu_priority": "normal"
+  }
+}
