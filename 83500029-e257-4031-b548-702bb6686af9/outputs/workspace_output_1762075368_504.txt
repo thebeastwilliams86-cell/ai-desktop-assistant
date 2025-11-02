@@ -1,1 +1,0 @@
--rw-r--r-- 1 root root 33946 Nov  2 09:22 ai-desktop-assistant.tar.gz
